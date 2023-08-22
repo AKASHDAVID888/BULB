@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb ON OFF</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        body,html{
+            height:100%;
+        }
+        body{
+            background-color: black;
+            height:100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="dd">
+        <img src="bulb_off.jpg" id="bulb" width="200">
+        <div class="btn_container"><button id="on" class="bulb_btn" onclick="on()">on</button>
+        <button id="off" class="bulb_btn" onclick="off()">off</button></div>
+    </section>
+    <script src="function1.js"></script>    
+</body>
+</html>
